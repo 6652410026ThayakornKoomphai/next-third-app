@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+/* สำหรับเบราว์เซอร์ WebKit (Chrome, Safari, Edge) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* สำหรับเบราว์เซอร์ Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
